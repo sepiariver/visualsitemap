@@ -6,6 +6,6 @@
 
 </head>
 <body>
-[[visualSitemap?menu=`util`]]
+[[visualSitemap]]
 </body>
 </html>
