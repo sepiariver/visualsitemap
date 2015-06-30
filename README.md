@@ -1,2 +1,2 @@
-# visualsitemap
-A visual sitemap generator for MODX pre-design prototyping
+# _modxExtraTpl
+Just the basic folder structure
