@@ -1,58 +1,24 @@
 {
-    "name": "Package"
-    ,"lowCaseName": "package"
-    ,"description": "Package description"
-    ,"author": "Author name"
-    ,"version": "1.0.0"
+    "name": "visualSitemap"
+    ,"lowCaseName": "visualsitemap"
+    ,"description": "A visual sitemap generator for MODX CMS."
+    ,"author": "YJ Tso @sepiariver"
+    ,"version": "1.0.0-pl"
     ,"package":{
-        "actions": [{
-            "id": 1
-            ,"controller": "index"
-        }]
-        ,"menus": [{
-            "text": "package"
-            ,"action": 1
-        }]
-        ,"elements": {
-            "plugins": [{
-                "name": "PackagePlugin"
-                ,"events": ["OnPageNotFound"]
+        "elements": {
+            "snippets": [{
+                "name": "visualSitemap"
+            }],
+            "chunks": [{
+                "name": "visualsitemap.innerMain.tpl"
+            },{
+                "name": "visualsitemap.outerMain.tpl"
+            },{
+                "name": "visualsitemap.outerUtil.tpl"
+            }],
+            "templates": [{
+                "name": "visualSitemapTemplate"
             }]
-            ,"snippets": [{
-                "name": "PackageSnippet"
-            }]
-            ,"chunks": [{
-                "name": "PackageChunk"
-            }]
-            ,"templates": [{
-                "name": "PackageTemplate"
-            }]
-            ,"tvs": [{
-                 "caption": "MyTV"
-                 ,"templates": ["PackageTemplate"]
-             }]
-        }
-        ,"resources": [{
-            "pagetitle": "Test Resources"
-            ,"alias": "test-resources"
-            ,"content": "Test content"
-            ,"tvs": [{
-                "name": "test-tv",
-                "value": "Value for test TV"
-            }]
-        }]
-        ,"systemSettings": [{
-            "key": "test_key"
-            ,"value": "it works"
-        }]
-    }
-    ,"database": {
-        "tables": ["PackageItem"]
-    }
-    ,"extensionPackage": {}
-    ,"build": {
-        "resolver": {
-            "after": "resolver.customresolver.php"
         }
     }
 }
