@@ -1,0 +1,12 @@
+2.0.0-rc1
+
+Update for GPM
+Single snippet
+
+1.0.1-beta2
+
+Changed name of included getCount snippet to visualSitemapCount to avoid potential collisions.
+
+1.0.0-beta1
+
+Initial beta release.

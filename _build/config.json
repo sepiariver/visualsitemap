@@ -1,9 +1,9 @@
 {
     "name": "visualSitemap"
     ,"lowCaseName": "visualsitemap"
-    ,"description": "A visual sitemap generator for MODX CMS."
+    ,"description": "A Visual Sitemap Generator for MODX CMS. Perfect for pre-design work and getting client signoffs."
     ,"author": "YJ Tso @sepiariver"
-    ,"version": "1.0.0-pl"
+    ,"version": "2.0.0-rc1"
     ,"package":{
         "elements": {
             "snippets": [{
